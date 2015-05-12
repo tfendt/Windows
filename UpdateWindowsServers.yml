@@ -1,0 +1,3 @@
+---
+- hosts: '{{ hosts }}'
+  gather_facts: no
