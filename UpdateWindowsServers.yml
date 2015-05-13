@@ -6,4 +6,7 @@
     
     - name: Install Updates
       script: ../Files/InstallUpdates.ps1
+      register: output
+
+    - debug: var=output
 
